@@ -38,7 +38,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/your-username/password-analyzer.git
+git clone https://github.com/SURII007/Password-Strength-Analyzer
 Install dependencies:
 
 Bash
@@ -47,5 +47,6 @@ pip install -r requirements.txt
 Execute the script:
 
 Bash
+
 
 python main.py
