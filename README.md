@@ -6,48 +6,20 @@ This project was developed as part of a 2-week cybersecurity internship project.
 📋 Features
 
 Password Scoring: Analyzes user passwords using the zxcvbn library to determine entropy and strength.
-
-
-
-
-Crack Time Estimation: Provides a realistic estimate of how long a password would take to crack.
-
-
+Crack Time Estimation: Provides a realistic estimate of how long a password would take to cracks
 Wordlist Generation: Allows user inputs like names, dates, and pet names to create a custom attack-specific wordlist.
-
-
 Pattern Matching: Includes common patterns such as "leetspeak" and year appending.
-
-
 Export Function: Automatically exports results in a .txt format compatible with cracking tools.
 
 🛠️ Tools & Technologies
 
 Language: Python 
-
-
-
 Libraries: zxcvbn, argparse, NLTK 
-
-
-
 Interface: Command Line Interface (CLI) 
 
 🚀 How to Run
-Clone the repository:
+1.Clone the repository: git clone https://github.com/SURII007/Password-Strength-Analyzer.git
+2.Install dependencies: pip install -r requirements.txt
+3.Execute the script: python main.py
 
-Bash
-
-git clone https://github.com/SURII007/Password-Strength-Analyzer.git
-Install dependencies:
-
-Bash
-
-pip install -r requirements.txt
-Execute the script:
-
-Bash
-
-
-python main.py
 
